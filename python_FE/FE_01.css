@@ -1,0 +1,74 @@
+h1 {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+}
+
+p {
+  text-align: right;
+  color: darkkhaki;
+}
+
+h3 {
+  color: rgba(255, 54, 525, 0.6);
+  background-color: aqua;
+}
+
+h4 {
+  display: inline;
+  float: left;
+  clear: both;
+  position: static;
+  position: relative;
+  top: 100px;
+  left: 500px;
+}
+
+h5 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* 
+선택자 
+- 아이디 선택자 #아이디명 구체성+100
+- 클래스 선택자 .클래스명 구체성+10
+- 태그 선택자  태그명 구체성+1
+
+우선순위 : 아이디>클래스>태그
+
+쉼표(,)로 여러 선택자 동시 선택 가능
+
+띄어쓰기로 자식 선택 가능 부모선택자 자식선택자
+
+.클래스1.클래스2 클래스1과 2를 모두 갖는 태그
+
+.클래스 > 자식 직계자식 선택
+
+a[title] 해당 attr를 가진 a태그
+
+가상 선택자 구체성+10
+:hover 
+:active
+:focus
+:first-child
+:last-child
+:nth-child(숫자)
+:last-of-type
+
+가상 요소 구체성+1
+::before
+::after
+*/
+
+/*
+단축표기
+margin / padding 등 top-right-bottom-left 순서로 적용
+top+bottom-left+right 순서로 적용
+*/
